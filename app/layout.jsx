@@ -9,6 +9,8 @@ export const metadata = {
     }
 };
 
+console.log("Test123 log"); 
+
 export default function RootLayout({ children }) {
     return (
         <html lang="en" data-theme="lofi">
