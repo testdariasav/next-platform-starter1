@@ -9,7 +9,8 @@ export const metadata = {
     }
 };
 
-console.log("Test123 log"); 
+<script src= "header_element_list.js"></script> 
+
 
 export default function RootLayout({ children }) {
     return (
