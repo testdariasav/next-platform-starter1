@@ -25,6 +25,8 @@ Alternatively, you can add Serverless Functions to any site regardless of framew
 And as always with dynamic content, beware of layout shifts & flicker! (here, we aren't...)
 `;
 
+console.log("Test123 log"); 
+
 const ctx = getNetlifyContext();
 
 export default function Page() {
