@@ -27,9 +27,7 @@ export default function RootLayout({ children }) {
                     </div>
                 </div>
             </body>
-            <script>
-                console.log(&quot;Test123 log&quot;); 
-            </script>
+           
         </html>
     );
 }
