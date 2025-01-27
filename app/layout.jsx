@@ -30,7 +30,6 @@ export default function RootLayout({ children }) {
             <script>
                 console.log(&quot;Test123 log&quot;);
                 var els = document.querySelectorAll(&quot;a[href=&lsquo;revalidation&lsquo;]&quot;);
-                els.innerHTML = el.innerHTML.replace(/revalidation, &quot;test&quot;);
                  
             </script>
         </html>
