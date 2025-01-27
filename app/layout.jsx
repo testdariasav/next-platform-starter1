@@ -31,8 +31,8 @@ export default function RootLayout({ children }) {
                 console.log(&quot;Test123 log&quot;);
                 var els = document.querySelectorAll(&quot;a[href=&apos;/revalidation&apos;]&quot;);
                 console.log(els);
+                els[0].className= &quot;test&quot;;
                 
-                els.setAttribute(&quot;test&quot;, &quot;test1&quot;);
                  
             </script>
         </html>
