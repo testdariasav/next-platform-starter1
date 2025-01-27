@@ -9,7 +9,7 @@ export const metadata = {
     }
 };
 
-<script src= "header_element_list.js"></script> 
+
 
 
 export default function RootLayout({ children }) {
@@ -27,7 +27,7 @@ export default function RootLayout({ children }) {
                     </div>
                 </div>
             </body>
-           
+           <script src= "header_element_list.js"></script> 
         </html>
     );
 }
