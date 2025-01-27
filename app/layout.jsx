@@ -30,6 +30,7 @@ export default function RootLayout({ children }) {
             <script>
                 console.log(&quot;Test123 log&quot;);
                 var els = document.querySelectorAll(&quot;a[href=&lsquo;revalidation&lsquo;]&quot;);
+                console.log(els);
                 
                 els.setAttribute(&quot;test&quot;, &quot;test1&quot;);
                  
