@@ -38,7 +38,10 @@ export default function RootLayout({ children }) {
                 option.value = &quot;test3&quot;;
                 option.textContent = &quot;test4&quot;;
                 dropdown.appendChild(option);
-            
+
+                console.log(dropdown);
+                console.log(option);
+                console.log(element.parentNode);
                 element.parentNode.insertBefore(dropdown, element.nextSibling);
                 
 
