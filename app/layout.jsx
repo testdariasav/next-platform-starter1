@@ -28,11 +28,22 @@ export default function RootLayout({ children }) {
                 </div>
             </body>
             <script>
-                console.log(&quot;Test123 log&quot;);
-                var els = document.querySelectorAll(&quot;a[href=&apos;/revalidation&apos;]&quot;);
-                console.log(els);
-                els[0].setAttribute(&quot;href&quot;,&quot;test&quot;);
-                
+                console.log(&quot;Test1231 log&quot;);
+
+                    const element = document.querySelectorAll(&quot;a[href=&apos;/revalidation&apos;]&quot;);
+                    console.log(element);
+
+                    const dropdown = document.createElement("select");
+                    const option = document.createElement("option");
+                    option.value = "test3";
+                    option.textContent = "test4";
+                    dropdown.appendChild(option);
+                    
+                    
+                    // Insert the dropdown after the element
+                    element.parentNode.insertBefore(dropdown, element.nextSibling);
+                }
+
                  
             </script>
         </html>
