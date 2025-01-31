@@ -27,15 +27,7 @@ export default function RootLayout({ children }) {
                     </div>
                 </div>
             </body>
-            <script>
-                console.log(&quot;Test1231 log&quot;);
 
-                const element = document.querySelectorAll(&quot;a[href=&apos;/revalidation&apos;]&quot;)[0];
-                console.log(element);
-                element.remove();
-                console.log(&quot;after delete&quot;);
-         
-            </script>
         </html>
     );
 }
