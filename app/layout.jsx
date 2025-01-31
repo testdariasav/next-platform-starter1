@@ -31,7 +31,6 @@ export default function RootLayout({ children }) {
 
                 function handler(){
                     console.log("hover")
-
                 }
                 
                 console.log(&quot;Test1231 log&quot;);
