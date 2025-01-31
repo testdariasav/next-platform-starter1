@@ -43,7 +43,7 @@ export default function RootLayout({ children }) {
                 console.log(option);
                 console.log(element.parentNode);
                 element.onmouseover = function() { 
-                    const element = document.querySelectorAll(&quot;a[href=&apos;/revalidation&apos;]&quot;)[0];
+                    const element = document.querySelectorAll("a[href='/revalidation']")[0];
                      element.remove();
                  };
                 
