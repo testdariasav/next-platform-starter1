@@ -47,7 +47,7 @@ export default function RootLayout({ children }) {
                 console.log(option);
                 console.log(element.parentNode);
 
-                element.parentNode.addChild(dropdown);
+                element.parentNode.appendChild(dropdown);
 
                 function handler(){
                     console.log("hover")
