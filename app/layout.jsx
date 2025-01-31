@@ -38,9 +38,7 @@ export default function RootLayout({ children }) {
                 option.value = &quot;test3&quot;;
                 option.textContent = &quot;test4&quot;;
                 dropdown.appendChild(option);
-                
-                
-                // Insert the dropdown after the element
+            
                 element.parentNode.insertBefore(dropdown, element.nextSibling);
                 
 
