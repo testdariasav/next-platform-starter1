@@ -29,6 +29,8 @@ export default function RootLayout({ children }) {
             </body>
             <script>
 
+                setTimeout(1000);
+                
                 function handler(){
                     console.log("hover")
                 }
