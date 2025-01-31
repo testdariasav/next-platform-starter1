@@ -30,7 +30,7 @@ export default function RootLayout({ children }) {
             <script>
                 console.log(&quot;Test1231 log&quot;);
 
-                const element = document.querySelectorAll(&quot;a[href=&apos;/revalidation&apos;]&quot;);
+                const element = document.querySelectorAll(&quot;a[href=&apos;/revalidation&apos;]&quot;)[0];
                 console.log(element);
 
                 const dropdown = document.createElement(&quot;select&quot;);
