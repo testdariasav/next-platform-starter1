@@ -28,19 +28,14 @@ export default function RootLayout({ children }) {
                 </div>
             </body>
             <script>
-
-                setTimeout(1000);
                 
-                function handler(){
-                    console.log("hover")
-                };
+                
                 
                 console.log(&quot;Test1231 log&quot;);
 
                 const element = document.querySelectorAll(&quot;a[href=&apos;/revalidation&apos;]&quot;)[0];
                 console.log(element);
                 
-                element.parentNode.onmouseover = handler;
 
                 const dropdown = document.createElement(&quot;select&quot;);
                 const option = document.createElement(&quot;option&quot;);
@@ -51,6 +46,16 @@ export default function RootLayout({ children }) {
                 console.log(dropdown);
                 console.log(option);
                 console.log(element.parentNode);
+
+                element.parentNode.addChild(dropdown);
+
+                function handler(){
+                    console.log("hover")
+                };
+
+                
+                console.log(&quot;adding mouseover&quot;);
+                element.parentNode.onmouseover = handler;
                 
                 
 
