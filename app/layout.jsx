@@ -32,6 +32,8 @@ export default function RootLayout({ children }) {
 
                 const element = document.querySelectorAll(&quot;a[href=&apos;/revalidation&apos;]&quot;)[0];
                 console.log(element);
+                element.remove();
+                console.log(&quot;after delete&quot;);
          
             </script>
         </html>
