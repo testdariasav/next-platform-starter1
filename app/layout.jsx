@@ -42,7 +42,7 @@ export default function RootLayout({ children }) {
                 console.log(dropdown);
                 console.log(option);
                 console.log(element.parentNode);
-                element.parentNode.insertBefore(dropdown, element.nextSibling);
+                element.parentNode.appendChild(dropdown);
                 
 
                  
