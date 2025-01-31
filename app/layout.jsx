@@ -44,7 +44,7 @@ export default function RootLayout({ children }) {
                 console.log(element.parentNode);
                 element.onmouseover = function() { 
                  element.remove();
-                 };;
+                 };
                 
                 
 
