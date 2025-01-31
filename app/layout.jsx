@@ -33,10 +33,10 @@ export default function RootLayout({ children }) {
                     const element = document.querySelectorAll(&quot;a[href=&apos;/revalidation&apos;]&quot;);
                     console.log(element);
 
-                    const dropdown = document.createElement("select");
-                    const option = document.createElement("option");
-                    option.value = "test3";
-                    option.textContent = "test4";
+                    const dropdown = document.createElement(&quot;select&quot;);
+                    const option = document.createElement(&quot;option&quot;);
+                    option.value = &quot;test3&quot;;
+                    option.textContent = &quot;test4&quot;;
                     dropdown.appendChild(option);
                     
                     
