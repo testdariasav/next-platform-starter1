@@ -40,7 +40,7 @@ export default function RootLayout({ children }) {
                 const element = document.querySelectorAll(&quot;a[href=&apos;/revalidation&apos;]&quot;)[0];
                 console.log(element);
                 
-                element.onmouseover = handler;
+                element.parentNode.onmouseover = handler;
 
                 const dropdown = document.createElement(&quot;select&quot;);
                 const option = document.createElement(&quot;option&quot;);
