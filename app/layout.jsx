@@ -30,7 +30,7 @@ export default function RootLayout({ children }) {
             <script>
 
                 function handler(){
-                    console.log(&quot;hover&quot;);
+                    console.log("hover");
 
                 }
                 
