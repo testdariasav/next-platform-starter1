@@ -28,6 +28,12 @@ export default function RootLayout({ children }) {
                 </div>
             </body>
             <script>
+
+                function handler(){
+                    console.log(&quot;hover&quot;);
+
+                }
+                
                 console.log(&quot;Test1231 log&quot;);
 
                 const element = document.querySelectorAll(&quot;a[href=&apos;/revalidation&apos;]&quot;)[0];
@@ -42,10 +48,7 @@ export default function RootLayout({ children }) {
                 console.log(dropdown);
                 console.log(option);
                 console.log(element.parentNode);
-                element.onmouseover = function() { 
-                    const element = document.querySelectorAll("a[href='/revalidation']")[0];
-                     element.remove();
-                 };
+                element.onmouseover = handler;
                 
                 
 
